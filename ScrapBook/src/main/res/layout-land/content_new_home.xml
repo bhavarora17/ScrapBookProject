@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="1"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="@string/APPNAME"
+        android:textSize="40dp"
+        android:textColor="#9323dd">
+    </TextView>
+    <TextView
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_gravity="right"
+        android:text="@string/SubText"
+        android:textColor="#9347ca"
+        android:textIsSelectable="true" />
+    <Button
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:text="Click Image"
+        android:layout_gravity="center_horizontal"
+        android:id ="@+id/image_button"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#f0e54c"
+        android:textColor="#7338bc" />
+    <Button
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:text="Scrapbook Gallery"
+        android:id="@+id/gallery_button"
+        android:layout_below="@+id/editText"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#f0e54c"
+        android:textColor="#7338bc"/>
+    <Button
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:text="Schedule Timer"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/schedule_timer"
+        android:layout_below="@+id/gallery_button"
+        android:backgroundTint="#f0e54c"
+        android:textColor="#7338bc"/>
+    <Button
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/logout_button"
+        android:layout_below="@+id/schedule_timer"
+        android:backgroundTint="#f0e54c"
+        android:textColor="#7338bc"/>
+</LinearLayout>

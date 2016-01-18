@@ -1,0 +1,5 @@
+<root>
+  <item name='com.facebook.login.LoginManager com.facebook.login.LoginManager getInstance()'>
+    <annotation name='android.support.annotation.NonNull' />
+  </item>
+</root>
